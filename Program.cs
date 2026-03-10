@@ -14,6 +14,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/version", () => new { version = "1.1" });
+app.MapGet("/version", () => new { version = "1.0" });
 
 app.Run();
